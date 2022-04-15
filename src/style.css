@@ -3,3 +3,7 @@
   --main-color: #ffffff;
   --second-color: #949aa9;
 }
+body {
+  max-width: 800px;
+  background-color: black;
+}
