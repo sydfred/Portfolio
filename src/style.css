@@ -19,7 +19,8 @@ video {
 .container {
   max-width: 800px;
   padding-top: 245px;
-  padding-left: 65px;
+  position: relative;
+  text-align: start;
 }
 h1 {
   font-size: 48px;
