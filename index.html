@@ -7,10 +7,14 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="src/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,6 +38,53 @@
     <title>Sydney Frederiksen - Front-end Developer</title>
   </head>
   <body>
-    <h1>sydney Frederiksen</h1>
+      <video playsinline autoplay loop muted poster="img"  id="bgvid">
+    <source src="img/bg.mp4" type="video/mp4">
+  </video>
+    <div class="container">
+      <h1>Sydney Frederiksen</h1>
+      <h2>
+        I'm a passionate
+        <span
+          class="typeText"
+          data-typed-items="Front-end Developer, Lighting Designer, Web Designer, Video Editor,
+          Creative"
+        >
+        </span>
+        <span class="typed-cursor" aria-hidden="true"></span>from Atlanta,
+        Georgia
+      </h2>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="/index.html">Home</a></li>
+          <li><a class="nav-link" href="/about.html">About</a></li>
+          <li><a class="nav-link" href="/resume.html">Resume</a></li>
+          <li><a class="nav-link" href="/services.html">Services</a></li>
+          <li><a class="nav-link" href="/portfolio.html">Portfolio</a></li>
+          <li><a class="nav-link" href="/contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <br />
+      <div class="socials">
+        <a href="https://github.com/sydfred" class="github" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/sydney-frederiksen/"
+          target="_blank"
+          class="linkedin"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/sydfred"
+          target="_blank"
+          class="instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </div>
+
+    <script src="src/java.js"></script>
   </body>
 </html>
