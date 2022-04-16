@@ -146,3 +146,16 @@ h2 {
 
     }
 }
+.nav-second{
+    position: absolute;
+top: 0%;
+width: 100%;
+}
+#name-head {
+ font-size: 20px;
+  font-weight: 700;
+  color: var(--main-color);
+  text-align: left;
+  padding: 0;
+
+}
