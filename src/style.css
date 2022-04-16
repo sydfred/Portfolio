@@ -35,7 +35,7 @@ h2 {
 .typeText::after {
   content: "|";
   animation: blink 1s infinite;
-  color: var(--second-color);
+  color: var(--main-color) !important;
 }
 
 @keyframes blink {
@@ -109,7 +109,7 @@ h2 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #fff;
+  color: var(--main-color);
 }
 .socials a {
   color: var(--main-color);
@@ -128,4 +128,21 @@ h2 {
 #nav {
   position: relative;
   align-items: flex-start;
+}
+@media (max-width: 768px) {
+  #fas #fa-bars {
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: fit-content;
+  }
+  .navbar-nav li{
+        float: left;
+    }
+    .navbar-nav a:hover{
+        background-color: transparent;
+        color: var(--second-color);
+
+    }
 }
