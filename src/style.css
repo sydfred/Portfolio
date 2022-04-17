@@ -137,25 +137,29 @@ h2 {
     float: right;
     width: fit-content;
   }
-  .navbar-nav li{
-        float: left;
-    }
-    .navbar-nav a:hover{
-        background-color: transparent;
-        color: var(--second-color);
-
-    }
+  .navbar-nav li {
+    float: left;
+  }
+  .navbar-nav a:hover {
+    background-color: transparent;
+    color: var(--second-color);
+  }
 }
-.nav-second{
-    position: absolute;
-top: 0%;
-width: 100%;
+.nav-second {
+  position: absolute;
+  top: 0%;
+  width: 100%;
 }
 #name-head {
- font-size: 20px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--main-color);
   text-align: left;
   padding: 0;
+}
+.container-about {
+  max-width: 800px;
 
+  position: relative;
+  text-align: start;
 }
