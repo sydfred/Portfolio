@@ -179,7 +179,7 @@ img {
 }
 /*-------ABOUT-------*/
 .container-about-whole {
-   max-width: 800px;
+   max-width: 100%;
     background-color: #020203;
     padding: 15px;
     border-radius: 6px;
@@ -246,6 +246,7 @@ i{
 
   
 }
+
 #count{
     font-size: 36px;
     display: block;
@@ -259,4 +260,20 @@ i{
 font-size: 15px;
 color: var(--main-color);
 padding-bottom: 33px;
+font-weight: 800;
+
+}
+.skill{
+    color: var(--main-color);
+    padding-bottom: 6px;
+}
+p{
+    color: var(--brand-color);
+}
+h5{
+    color: var(--main-color);
+    padding-top: 4px;
+}
+.icon-box{
+    font-size: 8px !important;
 }
