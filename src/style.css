@@ -207,7 +207,7 @@ h4 {
   letter-spacing: 2px;
   color: var(--second-color);
 }
-.learn-about-me {
+.learn-about-me, .check-resume {
   margin: -15px 0 15px 0;
   font-size: 36px;
   font-weight: 700;
