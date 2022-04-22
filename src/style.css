@@ -8,7 +8,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 video {
-  object-fit: cover;
+  object-fit: fill;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -51,6 +51,7 @@ h2 {
   text-decoration: underline;
   text-decoration-color: var(--brand-color);
 }
+
 .navbar {
   padding: 0;
   margin-top: 35px;
@@ -78,7 +79,7 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   color: var(--second-color);
-  white-space: nowrap;
+  
   transition: 0.3s;
 }
 .navbar a i,
@@ -176,6 +177,11 @@ img {
     width: fit-content;
   }
 }
+.topcorner{
+  position:absolute;
+  top:10;
+  right:15;
+  }
 /*-------ABOUT-------*/
 .container-about-whole {
   max-width: 100%;
