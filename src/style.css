@@ -1,5 +1,5 @@
 :root {
-  --brand-color: #ff3d00;
+  --brand-color: #e95a2f;
   --main-color: #ffffff;
   --second-color: #949aa9;
 }
@@ -208,7 +208,7 @@ h4 {
   color: var(--second-color);
 }
 .learn-about-me,
-.check-resume {
+.check-resume, .my-services {
   margin: -15px 0 15px 0;
   font-size: 36px;
   font-weight: 700;
@@ -310,7 +310,7 @@ h5 {
   font-size: 18px;
   text-transform: uppercase;
 }
-.resume-type{
+.resume-type, .service-type{
   color: var(--main-color);
   font-size: 16px;
 }
@@ -335,3 +335,26 @@ ul {
   ;
   cursor: pointer;
 }
+/*--Services--*/
+.container-services-whole {
+  max-width: 100%;
+  background-color: #020203;
+  padding: 15px;
+  border-radius: 6px;
+}
+.box{
+  background-image: initial;
+    background-color: rgba(53, 57, 59, 0.08);
+    text-align: left;
+    border-radius: 4px;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+}
+.icon{
+  color: var(--second-color);
+}
+.services{
+  font-size: 24px;
+color: var(--brand-color);
+}
+
