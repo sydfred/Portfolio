@@ -39,13 +39,16 @@
   </head>
   <body>
     <div class="container">
-          <video playsinline autoplay loop muted poster="img" id="bgvid">
-            <source src="img/bg.mp4" type="video/mp4" />
-         </video>
+      <video playsinline autoplay loop muted poster="img" id="bgvid">
+        <source src="img/bg.mp4" type="video/mp4" />
+      </video>
 
       <!-- Navigation bar mobile -->
-      <nav id="nav-mobile" class="navbar navbar-expand-lg">
-        <div class="container-fluid d-sm-block d-md-none d-lg-none d-xl-none">
+      <nav
+        id="nav"
+        class="navbar navbar-expand-lg top-corner position-absolute top-0 end-3"
+      >
+        <div class="ontainer-fluid d-sm-block d-md-none d-lg-none d-xl-none">
           <button
             class="navbar-toggler"
             type="button"
@@ -54,7 +57,11 @@
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
-          ></button>
+          >
+            <span class="navbar-toggler-icon"
+              ><i class="fas fa-bars" style="color: #fff; font-size: 15px"></i
+            ></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -84,6 +91,7 @@
           </div>
         </div>
       </nav>
+      <!--END MOBILE NAV-->
       <h1>Sydney Frederiksen</h1>
       <h2>
         I'm a passionate
