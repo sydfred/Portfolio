@@ -52,3 +52,7 @@ function playAnim() {
 }
 // start animation
 playAnim();
+//navbar highlight
+let li = document.querySelector("a.active");
+a.nav - link.remove("active");
+a.nav - link.add("");

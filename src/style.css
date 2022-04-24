@@ -106,6 +106,7 @@ h2 {
   visibility: visible;
   width: 25px;
 }
+
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
