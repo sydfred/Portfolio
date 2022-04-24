@@ -397,6 +397,11 @@ ul {
   cursor: pointer;
   text-decoration: underline;
 }
-.contact-type{
+.contact-type {
   text-align: center;
+}
+h6,
+.resume-list {
+  color: var(--second-color);
+  list-style: none;
 }
