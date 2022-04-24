@@ -138,6 +138,7 @@ h2 {
     float: right;
     width: fit-content;
   }
+
   .navbar-nav li {
     float: left;
   }
@@ -184,7 +185,8 @@ img {
 }
 /*-------ABOUT-------*/
 .container-about-whole,
-.container-portfolio-whole {
+.container-portfolio-whole,
+.container-contact-whole {
   max-width: 100%;
   background-color: #020203;
   padding: 15px;
@@ -211,7 +213,8 @@ h4 {
 .learn-about-me,
 .check-resume,
 .my-services,
-.my-work {
+.my-work,
+.contact-me {
   margin: -15px 0 15px 0;
   font-size: 36px;
   font-weight: 700;
@@ -366,7 +369,18 @@ ul {
   color: var(--main-color);
   font-weight: 500;
 }
-.icon-link{
+.icon-link {
   color: var(--second-color);
   font-size: 19px;
+}
+.contact-label {
+  font-size: 20px;
+  font-weight: 800;
+  padding-left: 23px;
+  color: var(--main-color);
+  text-align: right;
+}
+.contact-icon {
+  color: var(--brand-color);
+  text-align: left;
 }
