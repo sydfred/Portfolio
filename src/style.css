@@ -374,13 +374,28 @@ ul {
   font-size: 19px;
 }
 .contact-label {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
   padding-left: 23px;
-  color: var(--main-color);
-  text-align: right;
+  color: var(--second-color);
+  text-align: left;
+  kerning: 2px;
 }
 .contact-icon {
   color: var(--brand-color);
-  text-align: left;
+  text-align: start;
+  font-size: 20px;
+}
+.contact-type-a {
+  color: var(--brand-color);
+  text-decoration: none;
+  text-align: center;
+}
+.contact-type-a:hover {
+  color: var(--main-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.contact-type{
+  text-align: center;
 }
